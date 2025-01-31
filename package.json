@@ -1,6 +1,7 @@
 {
   "name": "react-clock",
   "version": "0.1.0",
+  "homepage": "https://Argus36.github.io/react-clock",
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
@@ -12,6 +13,8 @@
     "sass": "^1.83.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
