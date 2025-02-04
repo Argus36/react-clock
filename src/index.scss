@@ -51,12 +51,18 @@ code {
     .clock {
       width: 90%;
       height: 90%;
-      background: rgba(255, 255, 255, 0.589);
       border-radius: 50%;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      background-image: url(Img/clock.png);
+      background-color: rgb(231, 231, 231);
+      background-position-y: 50%;
+      background-position-x: 50%;
+      background-size: 100%;
+      z-index: 9999;
+
 
       .block {
         width: 1px;
@@ -67,9 +73,10 @@ code {
           width: 1.25vh;
           height: 1.25vh;
           background: red;
-          z-index: 101;
+          z-index: 1005;
           border-radius: 50%;
           position: relative;
+          transform: translate(-45%, -40%);
         }
 
         .big-arrow {
@@ -78,8 +85,9 @@ code {
           border-left: 0.9vh solid rgba(0, 0, 0, 0);
           border-right: 0.9vh solid rgba(0, 0, 0, 0);
           border-radius: 35%;
-          z-index: 100;
-          transform: translate(-27.5%, -95%);
+          z-index: 990;
+          position: relative;
+          transform: translate(-47.5%, -105%) rotate(90deg);
           transform-origin: 50% 87%;
         }
 
@@ -90,9 +98,9 @@ code {
           border-left: 0.6vh solid rgba(0, 0, 0, 0);
           border-right: 0.6vh solid rgba(0, 0, 0, 0);
           border-radius: 100px;
-          z-index: 100;
-          transform: translate(0%, -155%);
-          transform-origin: 50% 87%;
+          z-index: 995;
+          transform: translate(-47.5%, -165%) ;
+          transform-origin: 50% 95%;
         }
 
         .little-arrow {
@@ -102,46 +110,30 @@ code {
           border-left: 0.5vh solid rgba(0, 0, 0, 0);
           border-right: 0.5vh solid rgba(0, 0, 0, 0);
           border-radius: 30%;
-          z-index: 100;
-          transform: translate(0%, -230%);
+          z-index: 1000;
+          position: relative;
+          transform: translate(-50%, -234%);
           transform-origin: 50% 95%;
-          animation-duration: 3s;
-          animation-name: slidein;
-          animation-iteration-count: infinite;
         }
 
-        /*
+        /**
+
+        animation-duration: 3s;
+        animation-name: slidein;
+        animation-iteration-count: infinite;
+
         @keyframes slidein {
           from {
-            transform: translate(0%, -230%) rotate(0deg);
+            transform: translate(-47.5%, -105%) rotate(0deg);
           }
           to {
-            transform: translate(0%, -230%) rotate(360deg);
+            transform: translate(-47.5%, -105%) rotate(360deg);
           }
         }
-        */
 
+        **/
 
-        .numbers {
-          display: flex;
-
-          p {
-            font-size: 3vh;
-            font-weight: 500;
-            width: 1vw;
-            transform: translate(750%, 0%);
-          }
-          .part1 {
-            transform: translate(750%, 0%);
-          }
-          .part6 {
-            transform: translate(750%, 0%);
-          }
-        }
       }
-
-
-
     }
   }
 }
