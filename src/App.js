@@ -2,9 +2,6 @@ import moment from "moment";
 import  "moment-timezone";
 import { useState, useEffect } from "react";
 
-
-
-
 function App() {
 
   const [date, setDate] = useState(moment().format("dddd DD MMMM YYYY"));
@@ -44,8 +41,5 @@ function App() {
     </div>
   );
 }
-
-
-
 
 export default App;
