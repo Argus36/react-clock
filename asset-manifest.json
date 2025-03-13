@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/react-clock/static/css/main.5aebd3b3.css",
-    "main.js": "/react-clock/static/js/main.02ee74a1.js",
-    "static/media/сайт.png": "/react-clock/static/media/сайт.7eb39e7438b726f62ee5.png",
-    "static/media/wooden-texture-brown.jpg": "/react-clock/static/media/wooden-texture-brown.0500e8d5b6992f9ea68a.jpg",
+    "main.css": "/react-clock/static/css/main.b0faf193.css",
+    "main.js": "/react-clock/static/js/main.6dd62c08.js",
     "static/media/clock.png": "/react-clock/static/media/clock.28ff10739ef5674da9a8.png",
     "index.html": "/react-clock/index.html",
-    "main.5aebd3b3.css.map": "/react-clock/static/css/main.5aebd3b3.css.map",
-    "main.02ee74a1.js.map": "/react-clock/static/js/main.02ee74a1.js.map"
+    "main.b0faf193.css.map": "/react-clock/static/css/main.b0faf193.css.map",
+    "main.6dd62c08.js.map": "/react-clock/static/js/main.6dd62c08.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aebd3b3.css",
-    "static/js/main.02ee74a1.js"
+    "static/css/main.b0faf193.css",
+    "static/js/main.6dd62c08.js"
   ]
 }
