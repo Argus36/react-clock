@@ -25,7 +25,6 @@ code {
 }
 
 .App {
-  background: url(Img/сайт.png);
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -38,7 +37,6 @@ code {
   .container {
     width: 25vh;
     height: 25vh;
-    background-image: url(Img/wooden-texture-brown.jpg);
     background-position: center;
     background-size: 100%;
     border-radius: 50%;
@@ -56,7 +54,7 @@ code {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      background-image: url(Img/clock.png);
+      background: url(Img/clock.png);
       background-repeat: no-repeat;
       background-color: rgb(231, 231, 231);
       background-position-y: 50%;
